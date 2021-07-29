@@ -20,15 +20,13 @@
 					}
 				},
 				"url": {
-					"raw": "http://127.0.0.1:8000/api/signup/",
-					"protocol": "http",
+					"raw": "https://user-management-danilo.herokuapp.com/api/signup/",
+					"protocol": "https",
 					"host": [
-						"127",
-						"0",
-						"0",
-						"1"
+						"user-management-danilo",
+						"herokuapp",
+						"com"
 					],
-					"port": "8000",
 					"path": [
 						"api",
 						"signup",
@@ -45,7 +43,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"email\":\"danilocastelhano999991@hotmail.com\",\r\n    \"password\":\"123456\"\r\n}",
+					"raw": "{\r\n    \"email\":\"danilocastelhano@hotmail.com\",\r\n    \"password\":\"123456\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -53,15 +51,13 @@
 					}
 				},
 				"url": {
-					"raw": "http://127.0.0.1:8000/api/signin/",
-					"protocol": "http",
+					"raw": "https://user-management-danilo.herokuapp.com/api/signin/",
+					"protocol": "https",
 					"host": [
-						"127",
-						"0",
-						"0",
-						"1"
+						"user-management-danilo",
+						"herokuapp",
+						"com"
 					],
-					"port": "8000",
 					"path": [
 						"api",
 						"signin",
@@ -81,13 +77,13 @@
 				"header": [
 					{
 						"key": "Authorization",
-						"value": "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxNiwidXNlcm5hbWUiOiJkYW5pbG9jYXN0ZWxoYW5vOTk5OTkxQGhvdG1haWwuY29tIiwiZXhwIjoxNjI4MTkxNTk0LCJlbWFpbCI6ImRhbmlsb2Nhc3RlbGhhbm85OTk5OTFAaG90bWFpbC5jb20iLCJvcmlnX2lhdCI6MTYyNzU4Njc5NH0.VbLiqH0bj_TLs-eFPEKcV2JU5JFZz8KYgjhDZEGMLzE",
+						"value": "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6ImRhbmlsb2Nhc3RlbGhhbm9AaG90bWFpbC5jb20iLCJleHAiOjE2MjgxOTU0MTksImVtYWlsIjoiZGFuaWxvY2FzdGVsaGFub0Bob3RtYWlsLmNvbSIsIm9yaWdfaWF0IjoxNjI3NTkwNjE5fQ.52ZGhePyITCBo5jmnXejHj6b4z5xt0KEBzW3Bpm3lLM",
 						"type": "text"
 					}
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"email\":\"danilocastelhano999991@hotmail.com\",\r\n    \"password\":\"123456\"\r\n}",
+					"raw": "",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -95,15 +91,13 @@
 					}
 				},
 				"url": {
-					"raw": "http://127.0.0.1:8000/api/me/",
-					"protocol": "http",
+					"raw": "https://user-management-danilo.herokuapp.com/api/me/",
+					"protocol": "https",
 					"host": [
-						"127",
-						"0",
-						"0",
-						"1"
+						"user-management-danilo",
+						"herokuapp",
+						"com"
 					],
-					"port": "8000",
 					"path": [
 						"api",
 						"me",
