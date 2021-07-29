@@ -1,1 +1,1 @@
-web:gunicorn pitang.wsgi
+web: gunicorn pitang.wsgi --log-file -
