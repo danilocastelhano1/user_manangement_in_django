@@ -1,0 +1,117 @@
+{
+	"info": {
+		"_postman_id": "d1871c43-ed6c-40a9-b89a-d79cb9fdf5d4",
+		"name": "Danilo",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "1 - Signup",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"first_name\": \"Danilo\",\r\n    \"last_name\": \"Castelhano\",\r\n    \"email\": \"danilocastelhano@hotmail.com\",\r\n    \"password\":\"123456\",\r\n    \"phones\":[\r\n        {\r\n            \"number\": 997261840,\r\n            \"area_code\": 14,\r\n             \"country_code\": \"+55\"\r\n        }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/signup/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"signup",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "2 - Signin",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\":\"danilocastelhano999991@hotmail.com\",\r\n    \"password\":\"123456\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/signin/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"signin",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "3 - Me",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxNiwidXNlcm5hbWUiOiJkYW5pbG9jYXN0ZWxoYW5vOTk5OTkxQGhvdG1haWwuY29tIiwiZXhwIjoxNjI4MTkxNTk0LCJlbWFpbCI6ImRhbmlsb2Nhc3RlbGhhbm85OTk5OTFAaG90bWFpbC5jb20iLCJvcmlnX2lhdCI6MTYyNzU4Njc5NH0.VbLiqH0bj_TLs-eFPEKcV2JU5JFZz8KYgjhDZEGMLzE",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\":\"danilocastelhano999991@hotmail.com\",\r\n    \"password\":\"123456\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/me/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"me",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
