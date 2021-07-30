@@ -50,3 +50,6 @@ just import to your postman and follow the numbers
 }
 ```
 - GET https://user-management-danilo.herokuapp.com/api/me/
+
+
+## Added Test Cases with APITestCase
